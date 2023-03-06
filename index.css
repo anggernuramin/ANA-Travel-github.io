@@ -494,9 +494,7 @@ footer p {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   main #Home {
     height: min-content;
-  }
- 
-   
+  } 
 }
 
 /* start breakpoint mobile */
@@ -628,7 +626,13 @@ footer p {
   footer .wrapper-footer {
 	padding: 20px;
   }
-
 }
 /* breakpoint mobile end */
+
+@media screen and (max-width: 375px) {
+  main #Our-Package .wrapper-our-package .card-our-package {
+    width: 250px;
+    height: 60px;
+  }
+}
 
