@@ -1,0 +1,145 @@
+/* start breakpoint tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    main #Home {
+      height: min-content;
+    } 
+  }
+  
+  /* start breakpoint mobile */
+  @media screen and (max-width: 768px){
+      nav .wrapper-navbar {
+          width: 100%;
+          justify-content: center;
+          padding: 20px 5px;
+      }
+      nav .navbar-logo{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      nav .navbar-logo h2{
+          font-size: 1rem;
+      }
+      nav .navbar-list li {
+          margin-left: 5px;
+      }
+      
+      nav .navbar-list{
+          margin-left: 0px;
+      }
+        
+      nav .navbar-list li a {
+          padding: 5px;
+  
+      }
+  
+  
+      main{
+          overflow-x: hidden;
+      }
+      main #Home {
+          width: 100%;
+        }
+        main #Home .header-home {
+          text-align: center;
+          padding-top: 80px;
+        }
+        main #Home .header-home h1 {
+          font-size: 1.7rem;
+        }
+        main #Home .header-home p {
+          margin-top: 20px;
+          font-size: 1rem;
+        }
+        main #Home .container-home {
+          margin-top: 20px;
+          flex-direction: column;
+          margin-bottom: 40px;
+        }
+        main #Home .container-home .wrapper-hero .home-information {
+          margin-top: 20px;
+          padding: 20px;
+        }
+        main #Home .container-home .wrapper-hero .home-information p {
+          
+          font-weight: bold;
+          font-size: 1rem;
+          margin-bottom: 10px;
+        }
+        main #Home .container-home .wrapper-hero .home-information li {
+          margin-bottom: 10px;
+        }
+   
+    main #Home .container-home .wrapper-hero .home-information li h5 {
+      width: 30px;
+      height: 30px;
+      border-radius: 40px;
+    }
+    main #Home .container-home .form-home {
+      flex: 1;
+      margin-left: 0px;
+      padding: 35px 55px 50px 55px;
+      height: -moz-min-content;
+      height: min-content;
+    margin: auto;
+    box-shadow: 0px 0px 10px var(--color-primary);
+    }
+    main #Our-Package header {
+      height: 120px;
+    }
+    main #Our-Package header h1 {
+      font-size: 2rem;
+    }
+   
+    main #Our-Package .container-our-package {
+      height: 100vh;
+      overflow: hidden;
+    }
+   
+    main #Our-Package .wrapper-our-package .card-our-package {
+      width: 250px;
+      height: 80px;
+      padding: 10px;
+      margin: 10px;
+    }
+    main #Our-Package .wrapper-our-package .card-our-package .content-our-package h2 {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 5px;
+    }
+    main #Our-Package .wrapper-our-package .card-our-package .content-our-package p {
+      font-size: .8rem;
+      margin-bottom: 0px;
+    }
+  
+    main #Call-Us .wrapper-call-us {
+      width: 100%;
+      padding: 0px;
+      margin: 0;
+    }
+    main #Call-Us .wrapper-call-us header h1 {
+      margin: auto;
+      font-size: 1.7rem;
+      width: 300px;
+      margin-bottom: 10px;
+      line-height: 30px;
+    }
+    main #Call-Us .wrapper-call-us .content-call-us p {
+      text-align: center;
+      width: 200px;
+    }
+    main #Call-Us .wrapper-call-us .content-call-us button {
+      margin-top: 20px;
+    }
+    footer .wrapper-footer {
+      padding: 20px;
+    }
+  }
+  /* breakpoint mobile end */
+  
+  @media screen and (max-width: 375px) {
+    main #Our-Package .wrapper-our-package .card-our-package {
+      width: 250px;
+      height: 60px;
+    }
+  }
